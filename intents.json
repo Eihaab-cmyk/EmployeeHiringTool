@@ -1,0 +1,149 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for chatting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "purpose",
+        "patterns": [
+          "What is your purpose?",
+          "How do you define your mission?",
+          "What motivates your organization?",
+          "Why do you exist?",
+          "What drives your team's efforts?"
+        ],
+        "responses": [
+          "Our purpose is to assist you in the hiring process by identifying the best-fit candidates for your team.",
+          "Our mission is to streamline and optimize the hiring experience, making it efficient and effective for both employers and candidates.",
+          "We are motivated by the goal of facilitating successful matches between talented individuals and companies, contributing to mutual growth and success.",
+          "We exist to support organizations in building strong and diverse teams, driving innovation and excellence in the tech industry.",
+          "The driving force behind our team's efforts is the commitment to making the hiring process more insightful, fair, and beneficial for all stakeholders."
+        ]
+      },
+     {
+      "tag": "interview_timing",
+      "patterns": [
+        "Can you suggest suitable time slots for conducting interviews with software developers?",
+        "What times would be most fitting for scheduling interviews with candidates in the field of software development?",
+        "Could you provide recommendations on the ideal timing for interviewing a software developer?",
+        "Share insights on when it would be appropriate to schedule interviews for candidates specializing in software development.",
+        "What are the preferred time frames for arranging interviews with software developers?"
+      ],
+      "responses": [
+        "Morning or early afternoon slots work well for software developer interviews.",
+        "Consider scheduling interviews during mid-morning or late afternoon for software development candidates.",
+        "Optimal timing for interviewing a software developer is typically during late morning or early afternoon.",
+        "Insights suggest that scheduling interviews for software development candidates is best done in the early to mid-afternoon.",
+        "Preferred time frames for arranging interviews with software developers include late morning and early afternoon slots."
+      ]
+     },
+      {
+        "tag": "interview_questions",
+        "patterns": [
+          "What are some appropriate interview questions for a software developer?",
+          "How long should a software developer interview typically last?",
+          "Can you provide examples of technical and behavioral questions for a developer interview?",
+          "What qualities do you look for in a candidate during a software developer interview?",
+          "How do you assess a candidate's problem-solving skills?",
+          "What role does cultural fit play in the hiring process for a software developer?",
+          "Do you prefer whiteboard coding or take-home coding assignments during interviews?",
+          "How important is experience versus potential in your hiring decisions?",
+          "What steps do you take to ensure a fair and unbiased interview process?",
+          "How do you gauge a candidate's ability to work in a team?",
+          "What are some red flags you watch out for during a software developer interview?",
+          "In your opinion, what makes a candidate stand out from the rest?"
+        ],
+        "responses": [
+          "Appropriate interview questions for software developers should cover technical skills, problem-solving abilities, and teamwork.",
+          "The duration of a software developer interview can vary, but it's typically around 60 to 90 minutes.",
+          "Technical questions may include coding challenges, system design scenarios, and debugging exercises. Behavioral questions assess communication, collaboration, and adaptability.",
+          "I look for technical proficiency, problem-solving skills, effective communication, and a passion for continuous learning in software developer candidates.",
+          "Problem-solving skills can be assessed through coding challenges, algorithmic problem-solving, and discussing past projects.",
+          "Cultural fit is crucial for a cohesive team. It involves shared values, communication styles, and the ability to work collaboratively.",
+          "The preference between whiteboard coding and take-home assignments depends on the company culture and the specific role. Both have their merits.",
+          "While experience is valuable, potential is equally important. I assess a candidate's ability to learn, adapt, and contribute to the team's success.",
+          "To ensure a fair process, I use standardized questions, blind resume reviews, and diverse interview panels. I actively work to minimize biases.",
+          "Teamwork is essential. I evaluate a candidate's experience working in teams, communication skills, and their approach to conflict resolution.",
+          "Red flags include poor communication, lack of collaboration experience, and an inability to articulate technical decisions or challenges faced in past projects.",
+          "A candidate who demonstrates a deep understanding of the role, enthusiasm for the company, and a track record of impactful contributions stands out."
+        ]
+      },
+      {
+        "tag": "software_developer_qualities",
+        "patterns": [
+          "What qualities do you consider essential in a software developer?",
+          "How do you assess a candidate's problem-solving skills during an interview?",
+          "Can you provide examples of questions that evaluate a developer's communication skills?",
+          "What role does continuous learning play in the success of a software developer?",
+          "How do you gauge a candidate's ability to work collaboratively in a team?",
+          "Do you prioritize technical skills or adaptability when hiring a software developer?",
+          "Can you share your approach to evaluating a candidate's coding proficiency?",
+          "How important is creativity in the problem-solving process for a software developer?",
+          "In your opinion, what makes a software developer truly exceptional?",
+          "How do you handle assessing cultural fit during the hiring process for developers?",
+          "What steps do you take to ensure diversity and inclusion in your software development team?",
+          "How do you support the professional growth of your software developers?"
+        ],
+        "responses": [
+          "Essential qualities in a software developer include strong problem-solving skills, effective communication, adaptability, continuous learning, and the ability to work collaboratively.",
+          "I assess problem-solving skills through coding challenges, algorithmic problem-solving, and discussions about past projects.",
+          "Communication skills are vital. I ask candidates to explain complex technical concepts in a simple manner and discuss how they approach collaboration within a team.",
+          "Continuous learning is crucial in the fast-evolving tech industry. I look for candidates who demonstrate a commitment to staying updated with new technologies and methodologies.",
+          "Teamwork is essential for successful software development. I evaluate a candidate's experience working in teams, communication skills, and their approach to conflict resolution.",
+          "While technical skills are important, I value adaptability. The ability to learn and apply new technologies is key to long-term success in this field.",
+          "I assess coding proficiency through a mix of technical interviews, coding challenges, and discussions about the candidate's past coding experiences.",
+          "Creativity plays a significant role, especially in finding innovative solutions to complex problems. I look for candidates who approach problem-solving with creativity and ingenuity.",
+          "A truly exceptional software developer not only possesses strong technical skills but also exhibits a passion for their work, a collaborative mindset, and a track record of impactful contributions.",
+          "Assessing cultural fit involves understanding shared values, communication styles, and the ability to work harmoniously with team members.",
+          "To ensure diversity and inclusion, I use blind resume reviews, diverse interview panels, and promote a culture of respect and inclusivity within the team.",
+          "I support the professional growth of software developers by providing opportunities for training, mentorship programs, and fostering an environment that encourages continuous learning and skill development."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Joke"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "What did one wall say to the other wall?I'll meet you at the corner." ,
+         " Why did the computer keep its drink on the windowsill?Because it wanted a bit of Windows!",
+          "How do you organize a space party?  You planet!", 
+          "What do you call fake spaghetti?An impasta!"
+        ]
+      }
+    ]
+  }
